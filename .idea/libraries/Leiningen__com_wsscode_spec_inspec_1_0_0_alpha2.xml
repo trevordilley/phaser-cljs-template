@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.wsscode/spec-inspec:1.0.0-alpha2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/wsscode/spec-inspec/1.0.0-alpha2/spec-inspec-1.0.0-alpha2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

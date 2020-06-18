@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: io.undertow/undertow-core:2.1.0.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/undertow/undertow-core/2.1.0.Final/undertow-core-2.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

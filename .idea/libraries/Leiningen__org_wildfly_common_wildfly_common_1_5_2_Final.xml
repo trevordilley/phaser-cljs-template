@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.wildfly.common/wildfly-common:1.5.2.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/common/wildfly-common/1.5.2.Final/wildfly-common-1.5.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

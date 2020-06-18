@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: edn-query-language/eql:0.0.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/edn-query-language/eql/0.0.9/eql-0.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

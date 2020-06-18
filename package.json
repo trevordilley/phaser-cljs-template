@@ -1,0 +1,9 @@
+{
+	"name": "ldg",
+	"dependencies": {
+		"phaser": "^3.23.0"
+	},
+	"devDependencies": {
+		"shadow-cljs": "2.9.3"
+	}
+}

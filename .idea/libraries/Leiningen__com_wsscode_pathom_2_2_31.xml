@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.wsscode/pathom:2.2.31">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/wsscode/pathom/2.2.31/pathom-2.2.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
