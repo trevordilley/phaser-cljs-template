@@ -1,22 +1,18 @@
-# ldg
+# Phaser CLJS Template Project
+This project provides a full blown build setup along with all the configs to enable REPL driven dev
+with [Phaser](https://phaser.io/), a powerful javascript game framework. 
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
+[Shadow CLJS](https://github.com/thheller/shadow-cljs) is our build tool. Because we're making a browser
+based game and not a Web App hot-reload is turned _off_. Hot reload breaks Phaser in many silly ways.  
+However, the REPL works well! So we can still enjoy the tight feed-back loop while we dev!
+
 
 ## Getting Started
+It's probably useful to know this template has hijacked the [re-frame template](https://github.com/Day8/re-frame-template). Most of the docs below 
+are still relevant, but I may have missed some that mention Re-Frame (which we do not use currently).
 
 ### Project Overview
 
-* Architecture:
-[Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application)
-* Languages
-  - Front end ([re-frame](https://github.com/day8/re-frame)): [ClojureScript](https://clojurescript.org/) (CLJS)
-* Dependencies
-  - UI framework: [re-frame](https://github.com/day8/re-frame)
-  ([docs](https://github.com/day8/re-frame/blob/master/docs/README.md),
-  [FAQs](https://github.com/day8/re-frame/blob/master/docs/FAQs/README.md)) ->
-  [Reagent](https://github.com/reagent-project/reagent) ->
-  [React](https://github.com/facebook/react)
 * Build tools
   - Project task & dependency management: [Leiningen](https://github.com/technomancy/leiningen)
   - CLJS compilation, REPL, & hot reload: [`shadow-cljs`](https://github.com/thheller/shadow-cljs)
@@ -43,7 +39,6 @@ you.
     - `js/compiled/`: compiled CLJS (`shadow-cljs`)
       - Not tracked in source control; see [`.gitignore`](.gitignore)
 * [`src/cljs/ldg/`](src/cljs/ldg/): SPA source files (ClojureScript,
-[re-frame](https://github.com/Day8/re-frame))
   - [`core.cljs`](src/cljs/ldg/core.cljs): contains the SPA entry point, `init`
 
 ### Editor/IDE

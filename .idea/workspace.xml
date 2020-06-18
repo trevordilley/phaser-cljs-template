@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d12f3fa-3024-4454-b489-b910232f5e8d" name="Default Changelist" comment="" />
+    <list default="true" id="7523663d-ebe0-441e-9e02-b6bdfae3bc01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phaser-cljs-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dNzhNK8kNebZzmlPtQUWB1o486" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1dUjXUzhiilpUJpVvjOwzNzKLZn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,32 +44,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/public" />
-    </key>
-  </component>
-  <component name="ReplState" timestamp="1592486404401">{:repl-history {:ide [], :local [], :remote [{:command &quot;(reset! dilation 0.5)&quot;, :offset 21, :ns &quot;ldg.core&quot;} {:command &quot;(shadow/repl :app)&quot;, :offset 18, :ns &quot;shadow.user&quot;} {:command &quot;(defn u [scene timestep dt]\n  (let [y (.. scene\n              -sys\n              -config\n              -gameTitle\n              )\n        ]\n    (swap! sum_dt #(+ @sum_dt dt))\n    (.setText @sum-dt-text (str \&quot;Sum: \&quot; @sum_dt))\n    (.setText @dilation-text (str \&quot;Dilation: \&quot; @dilation))\n    ;    (.setText @dt-text (str \&quot;DT: \&quot; (* dt @dilation)))\n    )\n\n  )&quot;, :offset 353, :ns &quot;ldg.core&quot;}]}}</component>
   <component name="RunManager">
-    <configuration name="REPL" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
-      <module name="ldg" />
-      <setting name="host" value="localhost" />
-      <setting name="port" value="8777" />
-      <setting name="replType" value="NREPL" />
-      <setting name="configType" value="SPECIFY" />
-      <setting name="fixLineNumbers" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -70,32 +74,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d12f3fa-3024-4454-b489-b910232f5e8d" name="Default Changelist" comment="" />
-      <created>1592280456557</created>
+      <changelist id="7523663d-ebe0-441e-9e02-b6bdfae3bc01" name="Default Changelist" comment="" />
+      <created>1592486605648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592280456557</updated>
-      <workItem from="1592280459830" duration="39000" />
-      <workItem from="1592280502546" duration="3486000" />
-      <workItem from="1592310304269" duration="3455000" />
-      <workItem from="1592395370197" duration="3274000" />
-      <workItem from="1592483273940" duration="1651000" />
-      <workItem from="1592484952573" duration="952000" />
+      <updated>1592486605648</updated>
+      <workItem from="1592486611041" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="300" y="91" width="1098" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592484702824">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="300" y="91" width="1098" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.947@0.23.1680.947" timestamp="1592484702824" />
-    <state x="618" y="235" width="1014" height="458" key="search.everywhere.popup" timestamp="1592484053371">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="618" y="235" width="1014" height="458" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1592484053371" />
-    <state x="2228" y="-1659" width="1014" height="1032" key="search.everywhere.popup/815.-2137.3840.2137/0.23.1680.947@815.-2137.3840.2137" timestamp="1592282249342" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
