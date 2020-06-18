@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7523663d-ebe0-441e-9e02-b6bdfae3bc01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cljs/ldg/config.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cljs/game/config.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cljs/ldg/core.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cljs/game/core.cljs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592486605648</updated>
-      <workItem from="1592486611041" duration="981000" />
+      <workItem from="1592486611041" duration="1407000" />
     </task>
     <servers />
   </component>
