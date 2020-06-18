@@ -1,4 +1,4 @@
-(ns ldg.config)
+(ns game.config)
 
 (def debug?
   ^boolean goog.DEBUG)

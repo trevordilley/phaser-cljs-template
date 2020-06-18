@@ -1,7 +1,7 @@
-(ns ^:dev/once ldg.core
+(ns ^:dev/once game.core
   (:require
             ["phaser" :as phaser]
-            [ldg.config :as config]
+            [game.config :as config]
             ))
 
 

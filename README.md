@@ -38,8 +38,8 @@ are still relevant, but I may have missed some that mention Re-Frame (which we d
     - Deleted on `lein clean` (run by all `lein` aliases before building)
     - `js/compiled/`: compiled CLJS (`shadow-cljs`)
       - Not tracked in source control; see [`.gitignore`](.gitignore)
-* [`src/cljs/ldg/`](src/cljs/ldg/): SPA source files (ClojureScript,
-  - [`core.cljs`](src/cljs/ldg/core.cljs): contains the SPA entry point, `init`
+* [`src/cljs/game/`](src/cljs/game/): SPA source files (ClojureScript,
+  - [`core.cljs`](src/cljs/game/core.cljs): contains the SPA entry point, `init`
 
 ### Editor/IDE
 
@@ -53,7 +53,7 @@ Use your preferred editor or IDE that supports Clojure/ClojureScript development
 dependency management)
 3. Install [Node.js](https://nodejs.org/) (JavaScript runtime environment) which should include
    [NPM](https://docs.npmjs.com/cli/npm) or if your Node.js installation does not include NPM also install it.
-7. Clone this repo and open a terminal in the `ldg` project root directory
+7. Clone this repo and open a terminal in the `game` project root directory
 8. (Optional) Download project dependencies:
     ```sh
     lein deps
@@ -164,14 +164,14 @@ lein run -m shadow.cljs.devtools.cli <action> app
 ```
 ### Debug Logging
 
-The `debug?` variable in [`config.cljs`](src/cljs/ldg/config.cljs) defaults to `true` in
+The `debug?` variable in [`config.cljs`](src/cljs/game/config.cljs) defaults to `true` in
 [`dev`](#running-the-app) builds, and `false` in [`prod`](#production) builds.
 
 Use `debug?` for logging or other tasks that should run only on `dev` builds:
 
 ```clj
-(ns ldg.example
-  (:require [ldg.config :as config])
+(ns game.example
+  (:require [game.config :as config])
 
 (when config/debug?
   (println "This message will appear in the browser console only on dev builds."))

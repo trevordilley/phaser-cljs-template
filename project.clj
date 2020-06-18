@@ -27,7 +27,7 @@
                 :builds {:app {:target :browser
                                :output-dir "resources/public/js/compiled"
                                :asset-path "/js/compiled"
-                               :modules {:app {:init-fn ldg.core/init
+                               :modules {:app {:init-fn game.core/init
                                                :preloads [devtools.preload]}}
 
                                :devtools {:http-root "resources/public"
